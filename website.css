@@ -1,0 +1,228 @@
+
+/* This is the Style Sheets */
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background-color: #9da6b2;;
+}
+
+/* This is the Style Sheet for header */
+header {
+     height: 10vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     color: #000;
+}
+
+/* This is the Style Sheet for header h1 */
+header h1 {
+     position: absolute;
+     left: 50px;
+}
+
+/* This is the Style Sheet for header unlisted links*/
+header ul {
+     display: flex;
+}
+
+/* This is the Style Sheet for links */
+header li {
+     list-style-type: none;
+     padding: 20px;
+     font-weight: bold;
+}
+
+/* This is the Style Sheet for home*/
+.home {
+     min-height: 90vh;
+     text-align: center;
+}
+
+
+/* This is the Style Sheet for home h2*/
+.home h2 {
+     margin-top: 25px;
+}
+
+/* This is the Style Sheet for main image*/
+.img-main {
+     margin-top: 25px;
+     width: 100%;
+     height: 300px
+}
+
+/* This is the Style Sheet for discover page*/
+.discover {
+     width: 70%;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 10px
+}
+
+/* This is the Style Sheet for discover img*/
+.discover img {
+     width: 100%;
+     height: 300px;
+}
+
+.discover-h1 {
+     margin: 20px 0;
+}
+
+/* This is the Style Sheet for discover h3*/
+.discover h3 {
+     margin-top: 10px;
+}
+
+/* This is the Style Sheet for learn how to cook page*/
+.learn-how-to-cook {
+     margin-top: 50px;
+     width: 70%;
+     margin: 40px auto;
+}
+
+/* This is the Style Sheet for learn how to cook page img*/
+.learn-how-to-cook img {
+     margin-top: 25px;
+     height: 500px;
+     width: 100%;
+}
+
+/* This is the Style Sheet for cuisine page*/
+.cuisines {
+     margin-top: 50px;
+     width: 70%;
+     margin: 0 auto;
+     min-height: 100vh;
+}
+
+/* This is the Style Sheet for cuisine page h1*/
+.cuisines h1 {
+     text-align: center;
+     margin-top: 50px;
+}
+
+/* This is the Style Sheet for top cuisine page*/
+.top-cuisines {
+     margin-top: 25px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 20px;
+}
+
+/* This is the Style Sheet for top cuisine page img*/
+.top-cuisines img {
+     width: 100%;
+}
+
+/* This is the Style Sheet for top cuisine page h2*/
+.top-cuisines h2 {
+     text-align: center;
+}
+
+/* This is the Style Sheet for bottom cuisine page */
+.bottom-cuisines {
+     margin-top: 40px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     text-align: center;
+}
+
+.bottom-cuisines {
+     width: 100%;
+
+}
+
+/* This is the Style Sheet for bottom cuisine page img*/
+.bottom-cuisines img {
+     width: 60%;
+}
+
+/* This is the Style Sheet for recipe page*/
+.recipes {
+     min-height: 100vh;
+}
+
+/* This is the Style Sheet for recipe page h1*/
+.recipes h1 {
+     text-align: center;
+}
+
+/* This is the Style Sheet for recipe list page*/
+.recipes-list {
+     width: 70%;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 20px;
+     margin-top: 30px;
+}
+
+/* This is the Style Sheet for recipe list page img*/
+.recipes-list img {
+     width: 100%;
+     height: 300px;
+}
+
+/* This is the Style Sheet for contact us page*/
+.contact-us {
+     width: 70%;
+     margin: 0 auto;
+}
+
+/* This is the Style Sheet for contact us h1 page*/
+.contact-us h1 {
+     text-align: center;
+}
+
+/* This is the Style Sheet for contact us details page*/
+.contact-details {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 20px;
+     margin-top: 20px;
+}
+
+/* This is the Style Sheet for contact us details page img*/
+.contact-details img {
+     width: 100%;
+}
+
+/* This is the Style Sheet for contact icons page*/
+.contact-icons div {
+     display: flex;
+     margin-bottom: 30px;
+}
+
+/* This is the Style Sheet for contact icons paragraph page*/
+.contact-icons div p {
+     margin-left: 20px;
+}
+
+/* This is the Style Sheet for img transitions*/
+img {
+     transition: all 0.2s;
+}
+
+/* This is the Style Sheet for img hover*/
+img:hover {
+     transform: scale(1.1);
+}
+
+/* This is the Style Sheet for the elements*/
+a {
+     text-decoration: none;
+     color: black;
+     transition: all 0.2s;
+}
+
+/* This is the Style Sheet for the elements hover*/
+a:hover {
+     transform: scale(1.2);
+     color: #8932d2;
+}
